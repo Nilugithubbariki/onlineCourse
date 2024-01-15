@@ -21,11 +21,9 @@ ol > li {
   border: none;
   height: 27px;
 }
-@media (max-width: 600px){
-  .divStyle{
-    margin-left: 1437px;
+@media (max-width: 480px) {
+  .lastContainer > ul {
+    margin-left: -25px;
+    gap: 5px;
   }
-.mainWrapper{
-  margin-left: 1392px;
-}
 }

@@ -114,7 +114,7 @@ const Cards = ({ src, name, instructor, courses }) => (
 const Card = ({ src, name, instructor, title }) => (
   <div className="card sideCard">
     <div>
-      <img className="srcStyle" src={src} alt="" />
+      <img className="srcstyle" src={src} alt="" />
     </div>
     <p>{name}</p>
     <p>{instructor}</p>

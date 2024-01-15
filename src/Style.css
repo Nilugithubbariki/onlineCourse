@@ -1,6 +1,6 @@
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
   .navContainer {
-    width:155%;
+    width: 155%;
   }
   .cardStyle {
     margin-left: 81px;
@@ -8,7 +8,7 @@
     width: 954px;
   }
   .mainContainerStyle {
-    width:155%
+    width: 155%;
   }
   .mainContainer {
     display: flex;
@@ -44,41 +44,53 @@
     width: 155%;
   }
 }
-@media (max-width: 600px) {
-  .navContainer {
-    width: 1657%;
+@media (max-width: 480px) {
+  .navcontainer: {
+    width: 647px;
   }
-  .knowledge{
-    width: 1657%;
+  .searchStyle {
+    width: 227px;
+    border-radius: 16px;
+    height: 40px;
+    background: white;
   }
-  .wrap{
-    width: 1657%;
+  .arrowStyle {
+    border: 1px solid red;
+    margin-left: 193px;
+    margin-top: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background: red;
+    color: white;
+    height: 24px;
   }
-  ul{
-    margin-left: 527px;
+  .rightImageStyle {
+    width: 167px;
+    height: 152px;
+    margin-left: -191px;
   }
-  .book{
-    margin-left: 2642px;
-    width: 1027px;
+  .leftContent {
+    margin-left: -104px;
   }
-  .blocgStyle{
-    width: 1657%;
+  .pageStyle {
+    display: flex;
+    gap: 7px;
+    text-decoration: none;
+    margin-top: 11px;
+    margin-left: -67px;
   }
-  .div{
-    margin-left: 2868px;
+  .leftLogoStyle {
+    width: 41px;
+    margin-left: -27px;
   }
-  .userStyle{
-    width: 1657%;
+  .cardStyle {
+    margin-left: 18px;
+    gap: 4px;
+    width: 487px;
   }
-  .mainContainerStyle {
-    width: 1657%;
-  }
-  .MainCardWrapperStyle {
-    width: 1657%;
-  
-  }
-  .cardStyle{
-    margin-left: 1417px;
-
+  .mainCardStyle {
+    margin-left: -14px;
+    margin-right: -32px;
+    padding: 40px;
   }
 }

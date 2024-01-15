@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="lastContainer">
           <ul>
             <li>
-              <h2 style={{ color: "white" }}>News Letter</h2>
+              <h5 style={{ color: "white" }}>News Letter</h5>
               <div style={{ display: "flex", color: "white" }}>
                 <div>
                   <LocationOnIcon />
@@ -38,7 +38,7 @@ const Footer = () => {
               </div>
             </li>
             <li>
-              <h2 style={{ color: "white" }}>Menu</h2>
+              <h5 style={{ color: "white" }}>Menu</h5>
               <ol style={{ color: "white" }}>
                 <li>Home</li>
                 <li>Shop</li>
@@ -48,7 +48,7 @@ const Footer = () => {
               </ol>
             </li>
             <li>
-              <h2 style={{ color: "white" }}>For Student</h2>
+              <h5 style={{ color: "white" }}>For Student</h5>
               <ol style={{ color: "white" }}>
                 <li>Frequently Asked Questions</li>
                 <li>Returns And Refunds</li>
@@ -58,15 +58,15 @@ const Footer = () => {
               </ol>
             </li>
             <li>
-              <h2 style={{ color: "white" }}>Get More Updates</h2>
+              <h5 style={{ color: "white" }}>Get More Updates</h5>
               <div>
                 <input
                   type="text"
-                  placeholder="Enter your email here"
+                  placeholder="Email"
                   style={{
                     border: "1px solid blue",
                     height: "30px",
-                    width: "394px",
+                    width: "165px",
                   }}
                 />
                 <button className="submitStyle">Submit</button>

@@ -20,7 +20,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
-  margin: 16px;
+  margin: 5px;
 }
 .mainCardStyle {
   margin-left: 84px;
@@ -32,9 +32,11 @@
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 600px){
+
+@media (max-width: 480px) {
   .mainCardStyle {
-    width: 3000px;
-    margin-left: 1378px;
+    margin-left: 24px;
+    margin-right: -23px;
+    padding: 40px;
   }
 }

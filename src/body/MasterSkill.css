@@ -36,9 +36,24 @@
 .midimgStyle {
   width: 210px;
 }
-@media (max-width: 600px){
-  .mainContainer{
-    margin-left: 2172px;
-    gap: 641px;
+@media (max-width: 768px) {
+  .mainContainer {
+    margin-left: 461px;
+  }
+}
+@media (max-width: 600px) {
+  .mainContainer {
+    margin-left: 132px;
+    gap: 15px;
+  }
+  .firstChild {
+    width: 144px;
+  }
+  .secondChild {
+    width: 144px;
+  }
+  .midimgStyle {
+    width: 97px;
+    margin-top: 106px;
   }
 }

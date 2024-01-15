@@ -14,16 +14,21 @@
 .MainCardWrapperStyle {
   background: linear-gradient(to right, #eaa679, #e1f1f3);
 }
-.srStyle {
-  width: 200px;
+.srcstyle {
+  width: 170px;
   margin: auto;
 }
-@media (max-width: 600px){
-  .featuredInc{
-    margin-left: -706px;
-
+.srStyle {
+  width: 170px;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .srStyle {
+    margin: auto;
+    width: 60px;
   }
-  .srcStyle{
-    margin:auto;
+  .srcstyle {
+    width: 111px;
+    margin: auto;
   }
 }

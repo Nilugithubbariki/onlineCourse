@@ -11,7 +11,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 84px;
+  margin-left: 132px;
 }
 .childDivStyle {
   height: 300px;

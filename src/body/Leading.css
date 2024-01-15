@@ -61,7 +61,6 @@
   background: linear-gradient(to right, #badcf7, #eef1f1);
   align-items: center;
   border-radius: 14px;
-
 }
 .foterline {
   margin-top: 40px;
@@ -83,8 +82,32 @@
 .blocgStyle {
   background: linear-gradient(to right, #eaa679, #e1f1f3);
 }
-@media (max-width: 600px){
-  .leadStyle{
-    width: 1484%;
+@media (max-width: 600px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-left: -14px;
+  }
+  .leadStyle {
+    text-align: center;
+    margin-top: 50px;
+    width: 425px;
+    margin-left: 100px;
+  }
+  .leftStyle {
+    width: 195px;
+    height: 139px;
+    margin-top: 45px;
+  }
+  .div {
+    margin-left: 15px;
+    width: 562px;
+    height: 168px;
+  }
+  .book {
+    width: 573px;
+    margin-left: -119px;
   }
 }

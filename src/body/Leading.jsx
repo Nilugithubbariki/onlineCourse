@@ -111,7 +111,7 @@ const Leading = () => {
       <div className="knowledge">
         <div className="leftdge">
           <img
-            style={{ width: "396px", height: "250px" }}
+            style={{ width: "317px", height: "172px", marginTop: "45px" }}
             src="https://static.theprint.in/wp-content/uploads/2022/09/study.jpg"
             alt="logo_image"
           />

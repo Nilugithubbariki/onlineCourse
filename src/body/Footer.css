@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 ul {
   display: flex;
   gap: 21px;
@@ -10,22 +13,28 @@ ol > li {
   line-height: 40px;
 }
 .wrap {
-  background: red;
+  background: #ff5346;
   margin-top: -16px;
 }
 .submitStyle {
   margin-left: -87px;
   width: 79px;
   border-radius: 10px;
-  background: red;
+  background: #ff5346;
   border: none;
   height: 27px;
 }
-@media (max-width: 600px){
-  .divStyle{
-    margin-left: 1437px;
+@media (max-width: 768px) {
+  .wrap {
+    width: 1326px;
   }
-.mainWrapper{
-  margin-left: 1392px;
 }
+@media (max-width: 480px) {
+  .lastContainer > ul {
+    margin-left: -25px;
+    gap: 5px;
+  }
+  .wrap {
+    width: 1326px;
+  }
 }

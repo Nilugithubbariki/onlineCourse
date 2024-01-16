@@ -1,9 +1,18 @@
+body {
+  margin: 0px;
+}
 .Mainwrap {
   display: flex;
   justify-content: space-around;
 }
 .leftLogoStyle {
   width: 50px;
+}
+.navimageStyle {
+  margin-left: 272px;
+  margin-top: -233px;
+  height: 236px;
+  width: 605px;
 }
 .rightLogoStyle {
   width: 50px;
@@ -32,28 +41,34 @@
 }
 .inputStyle {
   border: none;
-  border: none;
   position: absolute;
   margin-top: 10px;
   margin-left: 25px;
 }
 .searchStyle {
-  width: 534px;
+  width: 269px;
   border-radius: 16px;
   height: 40px;
   background: white;
 }
 .arrowStyle {
   border: 1px solid red;
-  margin-left: 496px;
-  margin-top: 5px;
+  margin-left: 239px;
+  margin-top: 6px;
   border-radius: 50%;
   position: absolute;
   background: red;
   color: white;
   height: 24px;
 }
-
+.valueStyle {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.pStyle {
+  margin-top: 39px;
+  margin-left: -20px;
+}
 .searchIconStyle {
   color: red;
   position: absolute;
@@ -75,9 +90,14 @@
 }
 .leftContent {
   margin-top: 60px;
+  margin-left: -201px;
 }
 .rightContent {
   margin-top: 60px;
+}
+.oneStyle {
+  width: 71px;
+  border-radius: 50%;
 }
 .childCard {
   width: 200px;
@@ -85,6 +105,7 @@
   background: white;
   display: flex;
   justify-content: center;
+  height: 80px;
   align-items: center;
   box-shadow: 1px 1px 1px 1px #dbd7d7;
 }
@@ -93,5 +114,5 @@
   gap: 10px;
   justify-content: space-evenly;
   height: 50px;
-  margin-top: -23px;
+  margin-top: -37px;
 }

@@ -102,23 +102,25 @@ const cardData = [
   },
 ];
 const Cards = ({ src, name, instructor, courses }) => (
-  <div className="card">
+  <div className="card sideCard">
     <div>
-      <img className="srStyle" src={src} alt="" />
+      <img className="thirdImageStyle" src={src} alt="" />
     </div>
     <p>{name}</p>
     <p>{instructor}</p>
-    <p>{courses}</p>
+    <h5>{courses}</h5>
+    <hr />
   </div>
 );
 const Card = ({ src, name, instructor, title }) => (
   <div className="card sideCard">
     <div>
-      <img className="srcStyle" src={src} alt="" />
+      <img className="secondimageStyle" src={src} alt="" />
     </div>
     <p>{name}</p>
     <p>{instructor}</p>
-    <p>{title}</p>
+    <h5>{title}</h5>
+    <hr />
     <div className="line"></div>
     <div className="style">
       <div>
@@ -128,7 +130,7 @@ const Card = ({ src, name, instructor, title }) => (
         <StarIcon className="starStyle" />
         <StarIcon className="starStyle" />
       </div>
-      <div>
+      <div className="buyNowStyle">
         <button className="buyStyle">Buy Now</button>
       </div>
     </div>
@@ -162,7 +164,7 @@ const SliderComponent = () => {
           <br />
           gravida maecenas augue elementum et neque.Suspendisse imperdiet
         </p>
-        <Slider {...settings}>
+        <Slider {...settings} className="slidertwoOnly">
           {cardsData.map((card) => (
             <Card key={card.id} {...card} />
           ))}
@@ -179,11 +181,13 @@ const SliderComponent = () => {
           </p>
         </div>
       </div>
-      <Slider {...settings}>
-        {cardData.map((card) => (
-          <Cards key={card.id} {...card} />
-        ))}
-      </Slider>
+      <div>
+        <Slider {...settings} className="sliderThreeOnle">
+          {cardData.map((card) => (
+            <Cards key={card.id} {...card} />
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };

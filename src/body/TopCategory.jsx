@@ -50,10 +50,9 @@ const cardsData = [
 ];
 
 const Card = ({ src, name, course }) => (
-  <div className="card">
-    <div>
-      <img className="imageStyle" src={src} alt="" />
-    </div>
+  <div className="card firstSideCard">
+    <img className="firstimageStyle" src={src} alt="" />
+
     <p>{name}</p>
     <p>{course}</p>
   </div>
@@ -63,8 +62,8 @@ const SliderComponent = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 3,
+    speed: 200,
+    slidesToShow: 4,
     slidesToScroll: 1,
   };
 
@@ -86,11 +85,13 @@ const SliderComponent = () => {
           <br />
           gravida maecenas augue elementum et neque.Suspendisse imperdiet
         </p>
-        <Slider {...settings}>
-          {cardsData.map((card) => (
-            <Card key={card.id} {...card} />
-          ))}
-        </Slider>
+        <div className="firstSlider">
+          <Slider {...settings} className="sliderOneStyle">
+            {cardsData.map((card) => (
+              <Card key={card.id} {...card} />
+            ))}
+          </Slider>
+        </div>
       </div>
     </div>
   );
